@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Rodrigo Serrano"/>
+        <meta name="description" content="Projeto DWE - 1 SEM"/>
+        <meta name="keysword" content="ProjetoDWE"/>
+        <meta name="generator" content="Visual Studio Code"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="shortcut icon" type="image/icon" href="img/logo-ifsp.png"/>
+        <link rel="stylesheet" type="text/css" href="css/style_home.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
+        <title>Home - Projeto DWE</title>
+    </head>
+        <body>
+            <header>
+                <div class="topnav" id="myTopnav">
+                    <a href="#home">Inicio</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">▾ Python
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="python/python1.html">Aplicativos em Python</a>
+                            <a href="python/python2.html">Para que é usado</a>
+                            <a href="python/python3.html">Sobre Python</a>
+                        </div>
+                    </div> 
+                    <div class="dropdown">
+                        <button class="dropbtn">▾ Coleta Seletiva
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="python/python1.html">Importância da coleta seletiva</a>
+                            <a href="python/python2.html">Vantagens da coleta seletiva</a>
+                            <a href="python/python3.html">Sobre coleta seletiva</a>
+                        </div>
+                    </div> 
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                </div>
+            </header>
+                <main>
+                    <div class="container clearfix">
+                        <div class="inicio">
+                            <h1 id="pitem">Bem vindo !</h1>
+                            <hr class="top"/>
+                        </div>
+                            <div class="box-python">
+                                <div class="conteudo">
+                                    <div class="box-python1">
+                                        <img src="img/python.png" class="python_imagem"/>
+                                    </div>
+                                    <div class="text">
+                                        <div class="python_titulo">
+                                            <h2>Python</h2>
+                                        </div>
+                                        <hr class="top"/>
+                                            <p>Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991.</p>
+                                    </div>
+                                </div>  
+                            </div>                              
+                        <div class="box-coleta">
+                            <div class="conteudo">
+                                <div class="box-coleta1">
+                                    <img src="img/coleta1.png" class="coleta_imagem"/> 
+                                </div>
+                                <div class="text">
+                                    <div class="coleta_titulo">
+                                        <h2>Coleta Seletiva</h2>
+                                    </div>
+                                    <hr class="top"/>
+                                    <p>Coleta seletiva ou recolha seletiva é o termo utilizado para o recolhimento dos materiais que são possíveis de serem reciclados, previamente separados na fonte geradora. Dentre estes materiais recicláveis podemos citar os diversos tipos de papéis, plásticos, metais e vidros.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            <footer>
+                <div class="cont1">
+                    <img src="img/logo-ifsp.png" width="20px" alt="IFSP" title="IFSP" class="ifsp"/>
+                </div>
+                <div class="box-footer">
+                    <div class="copy">
+                        <p class="if"><cite>Instituto Federal de Educação, <br/>Ciência e Tecnologia</cite></p>
+                        <p class="if"><cite>Desenvolvimento Web 1</cite></p>
+                    </div>               
+                    <div class="copy2">
+                        <p><cite>Rodrigo Serrano ©</cite></p>
+                        <p class="pront"><cite>GU3006387</cite></p>
+                    </div>
+                </div>
+                    <div class="social">
+                        <a href="https://fb.com/RodrigooSerranoo"><img src="img/fb.png" class="social_img"/><p class="social_name">Rodrigo Serrano</p></a>
+                    </div>
+            </footer>
+                <script>
+                        function myFunction() {
+                        var x = document.getElementById("myTopnav");
+                        if (x.className === "topnav") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "topnav";
+                        }
+                        }
+                </script>
+        </body>
+</html>

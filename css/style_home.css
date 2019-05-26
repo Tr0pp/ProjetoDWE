@@ -1,0 +1,415 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background: linear-gradient(to bottom, hsl(0, 0%, 54%), hsl(0, 0%, 45%), hsl(0, 0%, 51%));
+    background-attachment: fixed;
+}
+hr.top{
+    width: 85%;
+    border-top: rgba(146, 146, 146, 0.815);
+    border-left: rgba(146, 146, 146, 0.815);
+}
+
+header {
+    min-height: 8px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid #333;
+    background: #333;
+    border-radius: 0px 0px 2px 2px;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.inicio {
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+}
+
+img.img_inicio {
+    width: 20px;
+    height: 20px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+img.img_inicio:hover {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    filter: drop-shadow(2px 2px 5px #535353)
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    transition-duration: 0.5s;
+  }
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+.topnav .icon {
+    display: none;
+  }
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    transition-duration: 0.5s;
+  }
+.dropdown .dropbtn {
+    font-size: 17px; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    transition-duration: 0.5s;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition-duration: 0.5s;
+  }
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+.topnav a:hover, .dropdown:hover .dropbtn {
+    transition-duration: 0.5s;
+    background-color: #555;
+    color: white;
+  }
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+    transition-duration: 0.5s;
+  }
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition-duration: 0.5s;
+  }
+
+.container {
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #ffffff, #f2f2f2, #ebe9e9);
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    height: 100%;
+    padding-bottom: 5%;
+    box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.2);
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 10px;
+    width: 100%;
+    height: 90px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.cont1 {
+    background-color: #1f1f1f;
+    float: left;
+    padding: 30px;
+}
+
+.copy {
+    display: grid;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.copy2 {
+    margin-left: 10%;
+    float: right;
+}
+
+.pront {
+    font-size: 10pt;
+}
+
+.if {
+    font-size: 8pt;
+}
+
+img.ifsp {
+    filter: saturate(60%);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+img.ifsp:hover {
+    transition-timing-function: ease-in;
+    filter: saturate(200%);
+}
+
+.box-footer {
+    width: 50%;
+    float: left;
+    height: 300px;
+}
+
+.social {
+    display: flex;
+    float: right;
+    padding-top: 20px;
+    margin-right: 2%;
+    filter: grayscale(50%);
+}
+
+.social_img {
+    width: 20px;
+    height: 20px;
+}
+
+.social_name {
+    color: #3d538e;
+    text-shadow: 1px 0px 3px #314271;
+}
+
+.box-python {
+    position: relative;
+    margin-left: 8%;
+    width: 30%;
+    padding: 5% 5% 0% 5%;
+    float: left;
+    box-shadow: 0px 0px 5px 0px #adadad;
+    border-radius: 5px;
+}
+
+.box-python1 {
+    margin-left: 0%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.box-coleta {
+    position: relative;
+    margin-right: 8%;
+    margin-bottom: 0%;
+    width: 30%;
+    padding: 5% 5% 0% 5%;
+    float: right;
+    box-shadow: 0px 0px 5px 0px #adadad;
+    border-radius: 5px;
+}
+
+.box-coleta1 {
+    margin-left: 0%;
+}
+.box-elemento {
+    margin-left: 5%;
+    margin-top:5%;
+    margin-bottom: 0%;
+    width: 80%;
+    padding: 1% 1% 1% 1%;
+    box-shadow: 0px 0px 5px 0px #adadad;
+    border-radius: 5px;
+}
+
+.python_imagem {
+    width: 40%;
+    height: 100%;
+    padding-left: 25%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    filter: opacity(80%);
+    clear: both;
+}
+
+.python_imagem:hover {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    filter: opacity(100%);
+}
+.text {
+    width: 90%;
+    text-align: center;
+}
+#pitem{
+    color: #474747;
+    text-shadow: 0px 0px 2px #353535;
+}
+
+.coleta_imagem {
+    width: 60%;
+    height: 100%;
+    padding-left: 18%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    filter: opacity(80%);
+    clear: both;
+}
+
+.coleta_imagem:hover {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    filter: opacity(100%);
+}
+
+.clearfix {
+    overflow: auto;
+}
+.conteudo {
+    margin-left: 5%;
+    margin-bottom: 50%;
+}
+.conteudo1 {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+hr.final{
+    width: 80%;
+    margin-top:50%;
+}
+
+.python_titulo{
+    text-align: center;
+}
+.coleta_titulo{
+    text-align: center;
+    color: linear-gradient(to right, hsl(0, 0%, 100%), hsl(0, 0%, 45%), hsl(0, 0%, 51%));
+}
+
+@media screen and (max-width:880px) and (min-width:300px) {
+    .container {
+        margin-top: 20%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 40%;
+        height: 50%;
+    }
+    .copy {
+        text-align: center;
+        margin-right: 100%;
+        filter: opacity(0%);
+        transition-duration: 0.5s;
+        transition-timing-function: ease-out;
+    }
+    .copy2 {
+        text-align: center;
+        position: absolute;
+        margin-left: 15%;
+    }
+    .social_name {
+        transition-duration: 0.5s;
+        transition-timing-function: ease-out;
+        filter: opacity(0%);
+    }
+    .social {
+        transition-duration: 0.5s;
+        margin-right: 0px;
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    .python_imagem {
+        width: 50%;
+        height: 100%;
+    }
+    .coleta_imagem {
+        width: 50%;
+        height: 100%;
+    }
+    .box-python {
+        margin-left: 2%;
+        width: 80%;
+        padding: 8%;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+    }
+    .box-coleta {
+        margin-right: 2.5%;
+        width: 80%;
+        margin-top: 10%;
+        padding: 8%;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in;
+    }
+    .coleta_imagem {
+        width: 50%;
+        margin-left: 5%;
+    }
+    .python_imagem {
+        width: 40%;
+        margin-left: 5%;
+    }
+    text {
+        text-align: center;
+    }
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+        display: none;
+      }
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        transition-duration: 0.5s;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        transition-duration: 0.5s;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+        transition-duration: 0.5s;
+
+}

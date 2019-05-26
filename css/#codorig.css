@@ -1,0 +1,23 @@
+.nav{
+    text-align: center; /*alinhamento do texto*/
+    padding: 15px; /*espaço entre a borda e o conteúdo do elemento*/
+    color: #2a3f0d;
+    margin-top:5px;
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #262626;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #313131;
+}
+a {
+    text-decoration: none;
+}

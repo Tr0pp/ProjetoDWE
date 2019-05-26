@@ -1,0 +1,303 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: century gothic, Arial;
+	font-weight: 300;
+    color: #363636;
+    background: #F1F6F4;
+    font-size: 14pt;
+}
+
+/* ============================
+--- Intro
+============================= */
+
+.intro {
+	width:100%;
+	position:relative;
+}
+
+#intro{	
+	background-image: url(../imagens/fundo.jpg);
+	background-size: cover;
+}
+
+
+/* ============================
+--- Menu
+============================= */
+
+ul {
+	margin: 0;
+	padding:0;
+	list-style: none;
+
+}
+	
+li { 
+	display: inline
+}
+
+li.sociais{
+	float:right; 
+	margin-right: 18px;
+
+
+}
+
+a.menu{ 
+	font-size: 12pt;
+	padding: 15px;
+	font-family: century gothic, Arial;
+	color: #000000;
+	text-decoration: none;
+	word-spacing: 8px;
+	position: relative;
+}
+
+a.about{
+	text-decoration: none;
+	font-family: century gothic, Arial;
+	background-color: #E44F1E;
+}
+
+a.about:hover {
+	color: #4A4A4A;
+}
+
+a:link{
+	color: #000000 ;
+} 
+
+a:visited{
+ color:#4A4A4A;
+} 
+a:active{
+	color:#4A4A4A;
+}
+
+
+input.search {
+		position: relative;
+		z-index: 10;
+		padding-left: 60px;
+		outline: none;
+		border: none;
+		background: transparent;
+		color: #FF4000;
+		font-weight: 300;
+		font-family: century gothic, Arial;
+		cursor: pointer;
+}
+
+
+
+
+h1{
+	font-family: century gothic, Arial;
+	text-align: center;
+	font-size: 35pt;
+}
+
+p{
+	font-family: century gothic, Arial;
+	font-size: 14pt;
+}
+
+
+
+
+
+ /* ============================
+  ----- Equipe
+ =============================== */
+
+main.equipe-centralizado div {
+  padding: 20px;
+  max-width: 150px;
+  margin: 10px;
+
+}
+
+
+.equipe-centralizado {
+  display: flex;
+  justify-content: center;
+}
+
+
+ /* ============================
+  ----- Servico
+ =============================== */
+
+
+main div {
+  padding: 40px;
+  max-width: 230px;
+  margin: 15px;
+}
+
+
+.servico-centralizado {
+  display: flex;
+  justify-content: center;
+
+}
+
+div.monitor{
+	background-color: #378974;
+}
+
+div.chave{
+	background-color: #E86438;
+}
+
+
+
+ /* ============================
+  ----- Formulario de contato 
+ =============================== */
+
+div.contato
+{
+    position:relative;
+    left:37%;
+    top:29%;
+    width:400px;
+    height:380px;
+   
+}
+
+
+div.contato #formulario
+{
+    position:absolute;
+    display:block;   
+}
+
+ 
+ 
+#formulario label
+{
+    position:absolute;
+    left:19px;
+    margin-right:5px;
+}
+ 
+ 
+#formulario input.nome
+{
+    position:absolute;
+    left:105px;
+    margin-top:2px;
+    width:260px;
+    font-size: 14pt;
+}
+
+#formulario input.email
+{
+    position:absolute;
+    left:105px;
+    margin-top:2px;
+    width:260px;
+    font-size: 14pt;
+}
+
+#formulario input.fone
+{
+    position:absolute;
+    left:105px;
+    margin-top:2px;
+    width:150px;
+    font-size: 14pt;
+}
+
+#formulario textarea.comentarios
+{
+    position:absolute;
+    left:105px;
+    margin-top:2px;
+    width:260px;
+    font-size: 14pt;
+}
+ .button{
+ 	font-family: century gothic, Arial;
+	font-size: 12pt;
+    width:150px;
+    height: 33px;
+    left:90px;
+    background-color: #E44F1E;
+
+ }
+
+
+ /* ====================
+  ----- Rodapé 
+ ======================= */
+
+div#footer{
+	background-color: #378974;
+	width:  0 auto;
+	height: 0 auto;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+
+p.footer{
+	font-family: century gothic, Arial;
+	font-size: 14pt;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+/* Media queries */
+
+@media(min-width:767px) {
+
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .brand-heading {
+        font-size: 100px;
+    }
+	
+    .intro-text {
+        font-size: 25px;
+    }
+
+
+}
+@media (max-width:768px) {
+	
+	.team.boxed-grey {
+		margin-bottom: 30px;
+	}
+	
+	.boxed-grey {
+		margin-bottom: 30px;
+	}
+	.intro .slogan {
+		padding:100px 0 60px;
+		
+	}
+	
+}
+
+@media (max-width:480px) {
+
+	.intro .slogan {
+		padding:170px 0 60px;
+		
+	}
+	
+}
