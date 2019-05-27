@@ -12,7 +12,6 @@ hr.top{
     border-top: rgba(146, 146, 146, 0.815);
     border-left: rgba(146, 146, 146, 0.815);
 }
-
 header {
     min-height: 8px;
     position: fixed;
@@ -44,26 +43,12 @@ h1 {
 h3 {
     text-align: left;
 }
-
-img.img_inicio {
-    width: 20px;
-    height: 20px;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in;
-}
-
-img.img_inicio:hover {
-    transition-duration: 0.5s;
-    transition-timing-function: ease-out;
-    filter: drop-shadow(2px 2px 5px #535353)
-}
-
 .topnav {
     background-color: #333;
     overflow: hidden;
     transition-duration: 0.5s;
   }
-  
+
 .topnav a {
     float: left;
     display: block;
@@ -217,7 +202,7 @@ img.ifsp:hover {
     position: relative;
     margin-left: 8%;
     width: 30%;
-    padding: 5% 5% 0% 5%;
+    padding: 5%;
     float: left;
     box-shadow: 0px 0px 5px 0px #adadad;
     border-radius: 5px;
@@ -234,7 +219,7 @@ img.ifsp:hover {
     margin-right: 8%;
     margin-bottom: 0%;
     width: 30%;
-    padding: 5% 5% 0% 5%;
+    padding: 5%;
     float: right;
     box-shadow: 0px 0px 5px 0px #adadad;
     border-radius: 5px;
@@ -248,22 +233,22 @@ img.ifsp:hover {
     margin-top:5%;
     margin-bottom: 0%;
     width: 80%;
-    padding: 1% 1% 1% 1%;
+    padding: 1%;
     box-shadow: 0px 0px 5px 0px #adadad;
     border-radius: 5px;
 }
 
-.python_imagem {
+.box-python img {
     width: 40%;
     height: 100%;
-    padding-left: 25%;
+    margin-left: 25%;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
     filter: opacity(80%);
     clear: both;
 }
 
-.python_imagem:hover {
+.box-python img:hover {
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
     filter: opacity(100%);
@@ -277,17 +262,17 @@ img.ifsp:hover {
     text-shadow: 0px 0px 2px #353535;
 }
 
-.coleta_imagem {
+.box-coleta1 img{
     width: 60%;
     height: 100%;
-    padding-left: 18%;
+    margin-left: 15%;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
     filter: opacity(80%);
     clear: both;
 }
 
-.coleta_imagem:hover {
+.box-coleta1 img:hover {
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
     filter: opacity(100%);
@@ -305,17 +290,33 @@ img.ifsp:hover {
     margin-bottom: 5%;
 }
 
-hr.final{
-    width: 80%;
-    margin-top:50%;
-}
-
 .python_titulo{
     text-align: center;
 }
 .coleta_titulo{
     text-align: center;
     color: linear-gradient(to right, hsl(0, 0%, 100%), hsl(0, 0%, 45%), hsl(0, 0%, 51%));
+}
+.button{
+    margin: 12%;
+}
+.button_leia{
+    position: absolute;
+    width: 50%;
+    padding: 3%;
+    margin-right: 0%;
+    border-radius: 5px;
+    background-color: #3eafd1;
+    border:#ffffff00;
+    color: #fff;
+    text-shadow: 0px 0px 2px #ffffff;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+}
+.button_leia:hover{
+    filter: opacity(60%);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
 }
 
 @media screen and (max-width:880px) and (min-width:300px) {
@@ -390,26 +391,28 @@ hr.final{
         float: right;
         display: block;
       }
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+          transition-duration: 0.5s;
+      }
+      .topnav.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
+          transition-duration: 0.5s;
+      }
+      .topnav.responsive .dropdown {float: none;}
+      .topnav.responsive .dropdown-content {position: relative;}
+      .topnav.responsive .dropdown .dropbtn {
+          display: block;
+          width: 100%;
+          text-align: left;
+          transition-duration: 0.5s;
+      }
+      .button {
+          padding-left: 4%;
+      }
     }
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-        transition-duration: 0.5s;
-    }
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-        transition-duration: 0.5s;
-    }
-    .topnav.responsive .dropdown {float: none;}
-    .topnav.responsive .dropdown-content {position: relative;}
-    .topnav.responsive .dropdown .dropbtn {
-        display: block;
-        width: 100%;
-        text-align: left;
-        transition-duration: 0.5s;
-
-}
