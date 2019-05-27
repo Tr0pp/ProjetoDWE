@@ -199,6 +199,11 @@ img.ifsp:hover {
     text-shadow: 1px 0px 3px #314271;
 }
 
+.box{
+    width: 100%;
+    margin-bottom: 2%; 
+}
+
 .box-python {
     position: relative;
     margin-left: 8%;
@@ -217,11 +222,10 @@ img.ifsp:hover {
 
 .box-coleta {
     position: relative;
-    margin-right: 8%;
-    margin-bottom: 0%;
+    margin-left: 5%;
     width: 30%;
     padding: 5%;
-    float: right;
+    float: left;
     box-shadow: 0px 0px 5px 0px #adadad;
     border-radius: 5px;
 }
@@ -360,17 +364,14 @@ img.ifsp:hover {
         height: 100%;
     }
     .box-python {
-        margin-left: 2%;
+        margin-left: 5%;
         width: 80%;
-        padding: 8%;
         transition-duration: 0.5s;
         transition-timing-function: ease-in;
     }
     .box-coleta {
-        margin-right: 2.5%;
         width: 80%;
         margin-top: 10%;
-        padding: 8%;
         transition-duration: 0.5s;
         transition-timing-function: ease-in;
     }
