@@ -199,14 +199,10 @@ img.ifsp:hover {
     text-shadow: 1px 0px 3px #314271;
 }
 
-.box{
-    width: 100%;
-    margin-bottom: 2%; 
-}
 
 .box-python {
     position: relative;
-    margin-left: 8%;
+    margin-left: 7.5%;
     width: 30%;
     padding: 5%;
     float: left;
@@ -364,7 +360,7 @@ img.ifsp:hover {
         height: 100%;
     }
     .box-python {
-        margin-left: 5%;
+        margin-left: 5%; 
         width: 80%;
         transition-duration: 0.5s;
         transition-timing-function: ease-in;
@@ -374,6 +370,7 @@ img.ifsp:hover {
         margin-top: 10%;
         transition-duration: 0.5s;
         transition-timing-function: ease-in;
+        margin-bottom: 3%;
     }
     .coleta_imagem {
         width: 50%;
