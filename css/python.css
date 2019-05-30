@@ -14,12 +14,17 @@
 
 .box img {
     width: 15%;
-    transition-duration: 0.5s;
+    transition-duration: 0.2s;
     transition-timing-function: ease-in;
     filter: opacity(80%);
     clear: both;
 }
-
+.box img:hover{
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    filter:opacity(100%);
+    transform: scale(1.1);
+}
 .box-python2 {
     margin-right: 5%;
     text-align: center;

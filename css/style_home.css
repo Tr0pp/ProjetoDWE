@@ -244,6 +244,7 @@ img.ifsp:hover {
 .box-python img:hover {
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
+    transform: scale(1.1);
     filter: opacity(100%);
 }
 .text {
@@ -268,6 +269,7 @@ img.ifsp:hover {
 .box-coleta1 img:hover {
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
+    transform: scale(1.1);
     filter: opacity(100%);
 }
 
