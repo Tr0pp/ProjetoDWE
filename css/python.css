@@ -1,1 +1,53 @@
 @import url(style_home.css);
+
+.box {
+    position: relative;
+    margin-left: 7.5%;
+    width: 79%;
+    padding: 3%;
+    float: left;
+    box-shadow: 0px 0px 5px 0px #adadad;
+    border-radius: 5px;
+    margin-top: 2%;
+    background-color: #fff;
+}
+
+.box img {
+    width: 15%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    filter: opacity(80%);
+    clear: both;
+}
+
+.box-python2 {
+    margin-right: 5%;
+    text-align: center;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.box-conteudo {
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+
+.fonte{
+    text-decoration: none;
+    font-size: 8pt;
+    text-align: center;
+    font-style: italic;
+}
+hr.fontehr{
+    width: 50%;
+}
+
+@media screen and (max-width:880px) and (min-width:300px) {
+    .box{
+        margin-bottom: 10%;
+    }
+    .box img{
+        width: 40%;
+        margin-right: 5%;
+    }
+}

@@ -129,7 +129,7 @@ footer {
     bottom: 0;
     margin-top: 10px;
     width: 100%;
-    height: 90px;
+    height: 80px;
     background-color: #333;
     color: white;
     text-align: center;
@@ -184,7 +184,7 @@ img.ifsp:hover {
 .social {
     display: flex;
     float: right;
-    padding-top: 20px;
+    padding-top: 10px;
     margin-right: 2%;
     filter: grayscale(50%);
 }
@@ -202,6 +202,7 @@ img.ifsp:hover {
 
 .box-python {
     position: relative;
+    background-color: #fff;
     margin-left: 7.5%;
     width: 30%;
     padding: 5%;
@@ -218,6 +219,7 @@ img.ifsp:hover {
 
 .box-coleta {
     position: relative;
+    background-color: #fff;
     margin-left: 5%;
     width: 30%;
     padding: 5%;
@@ -229,16 +231,6 @@ img.ifsp:hover {
 .box-coleta1 {
     margin-left: 0%;
 }
-.box-elemento {
-    margin-left: 5%;
-    margin-top:5%;
-    margin-bottom: 0%;
-    width: 80%;
-    padding: 1%;
-    box-shadow: 0px 0px 5px 0px #adadad;
-    border-radius: 5px;
-}
-
 .box-python img {
     width: 40%;
     height: 100%;
@@ -286,10 +278,6 @@ img.ifsp:hover {
     margin-left: 5%;
     margin-bottom: 50%;
 }
-.conteudo1 {
-    margin-left: 5%;
-    margin-bottom: 5%;
-}
 
 .python_titulo{
     text-align: center;
@@ -318,6 +306,10 @@ img.ifsp:hover {
     filter: opacity(60%);
     transition-duration: 0.2s;
     transition-timing-function: ease-out;
+}
+ul{
+    text-align: left;
+    margin-left: 42%;
 }
 
 @media screen and (max-width:880px) and (min-width:300px) {
