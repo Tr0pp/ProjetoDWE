@@ -13,6 +13,9 @@ hr.top{
     border-top: rgba(146, 146, 146, 0.815);
     border-left: rgba(146, 146, 146, 0.815);
 }
+hr.fontehr{
+    width: 50%;
+}
 header {
     min-height: 8px;
     position: fixed;
@@ -251,6 +254,7 @@ img.ifsp:hover {
     width: 90%;
     text-align: center;
 }
+
 #pitem{
     color: #474747;
     text-shadow: 0px 0px 2px #353535;
