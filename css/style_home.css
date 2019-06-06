@@ -5,14 +5,14 @@ html {
 
 body {
     font-family: 'Nanum Gothic', sans-serif;
-    background-image: url('../img/bg.jpg');
+    background: linear-gradient(to bottom, #404e57, #3c4144, #4b7081);
     background-attachment: fixed;
     background-repeat:repeat;
 }
 hr.top{
     width: 85%;
     border-top: rgba(146, 146, 146, 0.815);
-    border-left: rgba(146, 146, 146, 0.815);
+    border-left: rgba(146, 146, 146, 0.787);
 }
 hr.fontehr{
     width: 50%;
@@ -121,7 +121,7 @@ h2{
 
 .container {
     border-radius: 10px;
-    background: linear-gradient(to bottom, #ffffffe1, #f2f2f2b6, #ebe9e9a1);
+    background: linear-gradient(to bottom, #ffffffdf, #e9e9e9c7, #e9e9e9c7);
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -330,7 +330,7 @@ ul{
     transform: scale(1.1);
 }
 .box-int {
-    margin-right: 8%;
+    margin-right: 5%;
     text-align: center;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
@@ -341,7 +341,7 @@ ul{
     margin-bottom: 2%;
 }
 .box-foto{
-    margin-left: 39%;
+    margin-left: 40%;
     border-radius: 100%;
     width: 20%;
 }
@@ -372,7 +372,7 @@ hr.fontehr{
     margin-left:2%;
 }
 
-@media screen and (max-width:880px) and (min-width:300px) {
+@media screen and (max-width:767px) {
     .container {
         margin-top: 20%;
         margin-left: 3%;
@@ -463,12 +463,18 @@ hr.fontehr{
       .box{
         margin-bottom: 10%;
       }
+      .box-all img{
+          width: 40%;
+      }
       .box-foto img{
         width: 150%;
         margin-right: 5%;
       }
+      .box-int{
+          margin-right:7%;
+      }
       .box-foto {
-        margin-left: 35%;
+        margin-left: 32%;
         border-radius: 100%;
         width: 20%;
       }
@@ -480,6 +486,9 @@ hr.fontehr{
         width: 13%;
         margin-left:2%;
     }
+    .conteudo{
+        margin-left: 8%;
+        }
     ul{
         margin-left: 25%;
     }
