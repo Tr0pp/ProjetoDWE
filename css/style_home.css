@@ -1,18 +1,18 @@
-@import url(https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Raleway&display=swap);
 html {
     height: 100%;
 }
 
 body {
-    font-family: 'Nanum Gothic', sans-serif;
-    background: linear-gradient(to bottom, #404e57, #3c4144, #4b7081);
+    font-family: 'Raleway', sans-serif;
+    background-image: url(../img/bg.jpg);
     background-attachment: fixed;
     background-repeat:repeat;
 }
 hr.top{
     width: 85%;
-    border-top: rgba(146, 146, 146, 0.815);
-    border-left: rgba(146, 146, 146, 0.787);
+    border-top: rgba(34, 34, 34, 0.815);
+    border-left: rgba(34, 34, 34, 0.815);
 }
 hr.fontehr{
     width: 50%;
@@ -121,7 +121,7 @@ h2{
 
 .container {
     border-radius: 10px;
-    background: linear-gradient(to bottom, #ffffffdf, #e9e9e9c7, #e9e9e9c7);
+    background-color: #ffffffad;
     margin-top: 5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -150,7 +150,7 @@ footer {
 }
 
 .copy {
-    display: grid;
+    display: grid;  
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 0px;
@@ -241,8 +241,8 @@ img.ifsp:hover {
 }
 
 #pitem{
-    color: #474747;
-    text-shadow: 0px 0px 2px #353535;
+    color: #000000;
+    text-shadow: 0px 0px 20px #ffffff;
 }
 
 .box-coleta1 img{
@@ -298,9 +298,19 @@ img.ifsp:hover {
     transition-duration: 0.2s;
     transition-timing-function: ease-out;
 }
-ul{
-    text-align: left;
-    margin-left: 42%;
+.lista ul{
+    text-align: center;
+    list-style-type: none;
+}
+.lista li{
+    margin-bottom: 1%;
+    transition-duration: 0.3s;
+}
+.lista li:hover{
+    text-shadow:  0px 0px 6px rgb(179, 179, 179);
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+    cursor: default;
 }
 .imagem_assunto{
     width:15%;
@@ -489,7 +499,7 @@ hr.fontehr{
     .conteudo{
         margin-left: 8%;
         }
-    ul{
-        margin-left: 25%;
+    .lista ul{
+        margin-right: 15%;
     }
     }
