@@ -2,18 +2,19 @@
 html {
     height: 100%;
 }
-
 body {
     font-family: 'Raleway', sans-serif;
     background-image: url(../img/bg.jpg);
     background-attachment: fixed;
     background-repeat:repeat;
 }
+/* HR usado na parte superior do site  */
 hr.top{
     width: 85%;
     border-top: rgba(34, 34, 34, 0.815);
     border-left: rgba(34, 34, 34, 0.815);
 }
+/* HR usado na parte inferior do site  */
 hr.fontehr{
     width: 50%;
 }
@@ -34,24 +35,57 @@ a {
     color: #000;
 }
 
+/* //////////////////////////////////////////// */
+
+/* Titulo das páginas */
+
 .inicio {
     padding: 15px;
     justify-content: space-around;
     align-items: center;
 }
+/* Configuração de texto e lista */
 
 h1 {
     font-weight: bold;
     text-align: center;
 }
-
 h2{
     text-align: center;
 }
+.text {
+    width: 90%;
+    text-align: center;
+}
+#pitem{
+    color: #000000;
+    text-shadow: 0px 0px 20px #ffffff;
+}
+.fonte{
+    text-decoration: none;
+    font-size: 8pt;
+    text-align: center;
+    font-style: italic;
+}
+.lista ul{
+    text-align: center;
+    list-style-type: none;
+}
+.lista li{
+    margin-bottom: 1%;
+    transition-duration: 0.3s;
+}
+.lista li:hover{
+    text-shadow:  0px 0px 6px rgb(179, 179, 179);
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+    cursor: default;
+}
+/* Configuração de texto e lista */
 
-/* h3 {
-    text-align: left;
-} */
+/* //////////////////////////////////////////// */
+
+/* NAVBAR  */
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -118,7 +152,11 @@ h2{
     display: block;
     transition-duration: 0.5s;
   }
+/* NAVBAR */
 
+/* //////////////////////////////////////////// */
+
+/* "Classe pai" */
 .container {
     border-radius: 10px;
     background-color: #ffffffad;
@@ -130,6 +168,13 @@ h2{
     padding-bottom: 5%;
     box-shadow: 0px 0px 11px 4px rgba(0,0,0,0.2);
 }
+.clearfix {
+    overflow: auto;
+}
+
+/* //////////////////////////////////////////// */
+
+/* Conteudos do footer */
 
 footer {
     position: fixed;
@@ -142,13 +187,11 @@ footer {
     color: white;
     text-align: center;
 }
-
 .cont1 {
     background-color: #1f1f1f;
     float: left;
     padding: 30px;
 }
-
 .copy {
     display: grid;  
     padding-top: 0px;
@@ -158,36 +201,35 @@ footer {
     margin-left: 10px;
     float: left;
 }
-
 .copy2 {
     margin-left: 10%;
     float: right;
 }
-
 .pront {
     font-size: 10pt;
 }
-
 .if {
     font-size: 8pt;
 }
-
 img.ifsp {
     filter: saturate(60%);
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
 }
-
 img.ifsp:hover {
     transition-timing-function: ease-in;
     filter: saturate(200%);
 }
-
 .box-footer {
     width: 50%;
     float: left;
     height: 300px;
 }
+/* Conteudos do footer */
+
+/* //////////////////////////////////////////// */
+
+/* Conteudo das boxs no index */
 .box-python {
     position: relative;
     background-color: #fff;
@@ -198,13 +240,11 @@ img.ifsp:hover {
     box-shadow: 0px 0px 5px 0px #adadad;
     border-radius: 5px;
 }
-
 .box-python1 {
     margin-left: 0%;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
 }
-
 .box-coleta {
     position: relative;
     background-color: #fff;
@@ -215,7 +255,6 @@ img.ifsp:hover {
     box-shadow: 0px 0px 5px 0px #adadad;
     border-radius: 5px;
 }
-
 .box-coleta1 {
     margin-left: 0%;
 }
@@ -228,23 +267,12 @@ img.ifsp:hover {
     filter: opacity(80%);
     clear: both;
 }
-
 .box-python img:hover {
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
     transform: scale(1.1);
     filter: opacity(100%);
 }
-.text {
-    width: 90%;
-    text-align: center;
-}
-
-#pitem{
-    color: #000000;
-    text-shadow: 0px 0px 20px #ffffff;
-}
-
 .box-coleta1 img{
     display: flex;
     width: 56%;
@@ -254,22 +282,16 @@ img.ifsp:hover {
     filter: opacity(80%);
     clear: both;
 }
-
 .box-coleta1 img:hover {
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
     transform: scale(1.1);
     filter: opacity(100%);
 }
-
-.clearfix {
-    overflow: auto;
-}
 .conteudo {
     margin-left: 5%;
     margin-bottom: 50%;
 }
-
 .python_titulo{
     text-align: center;
 }
@@ -298,20 +320,12 @@ img.ifsp:hover {
     transition-duration: 0.2s;
     transition-timing-function: ease-out;
 }
-.lista ul{
-    text-align: center;
-    list-style-type: none;
-}
-.lista li{
-    margin-bottom: 1%;
-    transition-duration: 0.3s;
-}
-.lista li:hover{
-    text-shadow:  0px 0px 6px rgb(179, 179, 179);
-    transition-duration: 0.3s;
-    transform: scale(1.1);
-    cursor: default;
-}
+/* Conteudo nas boxs do index */
+
+/* //////////////////////////////////////////// */
+
+/* Configuração das boxs das paginas sobre os temas */
+
 .imagem_assunto{
     width:15%;
 }
@@ -326,7 +340,6 @@ img.ifsp:hover {
     margin-top: 2%;
     background-color: #fff;
 }
-
 .box img {
     transition-duration: 0.2s;
     transition-timing-function: ease-in;
@@ -339,17 +352,22 @@ img.ifsp:hover {
     filter:opacity(100%);
     transform: scale(1.1);
 }
-.box-int {
+.box-conteudo {
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+.box-all {
     margin-right: 5%;
     text-align: center;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
 }
+/* Configuração das boxs das paginas sobre os temas */
 
-.box-conteudo {
-    margin-left: 5%;
-    margin-bottom: 2%;
-}
+/* //////////////////////////////////////////// */
+
+/* Box Sobre mim */
+
 .box-foto{
     margin-left: 40%;
     border-radius: 100%;
@@ -359,28 +377,21 @@ img.ifsp:hover {
     width: 80%;
     border-radius:100%;
 }
-
-.box-all {
+.rs{
+    border-radius: 100%;
+    width: 4%;
+    margin-left:2%;
+}
+.box-int {
     margin-right: 5%;
     text-align: center;
     transition-duration: 0.5s;
     transition-timing-function: ease-in;
 }
 
-.fonte{
-    text-decoration: none;
-    font-size: 8pt;
-    text-align: center;
-    font-style: italic;
-}
-hr.fontehr{
-    width: 50%;
-}
-.rs{
-    border-radius: 100%;
-    width: 4%;
-    margin-left:2%;
-}
+/* Box da parte Sobre mim */
+
+/* //////////////////////////////////////////// */
 
 @media screen and (max-width:767px) {
     .container {
@@ -439,6 +450,10 @@ hr.fontehr{
     text {
         text-align: center;
     }
+    /* //////////////////////////////////////////// */
+
+    /* NAVBAR responsiva */
+
     .topnav a:not(:first-child), .dropdown .dropbtn {
         display: none;
       }
@@ -467,6 +482,10 @@ hr.fontehr{
           text-align: left;
           transition-duration: 0.5s;
       }
+      /* NAVBAR responsiva */
+      
+      /* //////////////////////////////////////////// */
+
       .button {
           padding-left: 4%;
       }
